@@ -4,7 +4,6 @@
  */
 
 "use strict";
-
 module.exports = {
   /**
    * Принимает число и 3 формы слова
@@ -21,7 +20,7 @@ module.exports = {
     if ((number % 100) > 4 && (number % 100) < 20) {
       index = 2;
     } else {
-      let number = number % 10;
+      number = number % 10;
       let localIndex = (number < 5) ? number : 5;
       index = cases[localIndex];
     }
