@@ -15,6 +15,7 @@ module.exports = {
    * pluralize(3, ["пассажир", "пассажира", "пассажиров"]) // return 'пассажира'
    */
   pluralize(number, titles) {
+    
     number = Math.abs(number);
     const cases = [2, 0, 1, 1, 1, 2];
     let index = 0;
