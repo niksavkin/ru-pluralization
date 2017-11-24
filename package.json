@@ -1,0 +1,11 @@
+{
+  "name": "ru-pluralization",
+  "version": "0.1.0",
+  "description": "Модуль плюрализации",
+  "main": "index.js",
+  "author": "Nikita Savkin",
+  "license": "MIT",
+  "engines": {
+    "node": "9.2.0"
+  }
+}
