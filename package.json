@@ -7,5 +7,6 @@
   "license": "MIT",
   "engines": {
     "node": "9.2.0"
-  }
+  },
+  "repository": "https://github.com/niksavkin/ru-pluralization"
 }
